@@ -1,7 +1,9 @@
 # SourceMod Extension Example
 Showcase of how to build [SourceMod Sample Extension](https://github.com/alliedmodders/sourcemod/tree/master/public/sample_ext) using [AMBuild](https://github.com/alliedmodders/ambuild)
 
-Note: requirement list might be incomplete
+Important notes:
+* This is mostly intended for **Counter Strike: Source**, but maybe you can change SDK variable in scripts and it could work for other games
+* Requirement list might be incomplete
 # Requirements
 ### Windows
 * Download and install [Visual Studio](https://visualstudio.microsoft.com/) (Desktop development with C++)

@@ -2,6 +2,8 @@
 
 clear
 
+SDK=css
+
 if [ "$1" = "install" ]; then
     mkdir -p build
     pushd build
@@ -12,7 +14,7 @@ if [ "$1" = "install" ]; then
 
         git clone https://github.com/alliedmodders/sourcemod --recursive
         git clone https://github.com/alliedmodders/metamod-source
-        git clone https://github.com/alliedmodders/hl2sdk hl2sdk-css -b css
+        git clone https://github.com/alliedmodders/hl2sdk hl2sdk-$SDK -b $SDK
         git clone https://github.com/alliedmodders/ambuild
 
         python -m venv venv
@@ -37,7 +39,7 @@ elif [ "$1" = "build" ]; then
         --mms-path=$ROOT_PATH/build/sdk_root/metamod-source \
         --hl2sdk-root=$ROOT_PATH/build/sdk_root \
         --hl2sdk-manifest-path=$ROOT_PATH/build/sdk_root/sourcemod/hl2sdk-manifests \
-        --sdks=css
+        --sdks=$SDK
 
     ambuild
 
