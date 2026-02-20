@@ -1,0 +1,1 @@
+# SourceMod Extension Example
