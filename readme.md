@@ -1,5 +1,5 @@
 # SourceMod Extension Example
-Showcase of how to build [SourceMod Sample Extension](https://github.com/alliedmodders/sourcemod/tree/master/public/sample_ext)
+Showcase of how to build [SourceMod Sample Extension](https://github.com/alliedmodders/sourcemod/tree/master/public/sample_ext) using [AMBuild](https://github.com/alliedmodders/ambuild)
 # Requirements
 ### Linux
 * Install Dependencies
