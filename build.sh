@@ -6,9 +6,9 @@ if [ "$1" = "install" ]; then
     mkdir -p build
     pushd build
 
-    if [ ! -d root ]; then
-        mkdir root
-        pushd root
+    if [ ! -d sdk_root ]; then
+        mkdir sdk_root
+        pushd sdk_root
 
         git clone https://github.com/alliedmodders/sourcemod --recursive
         git clone https://github.com/alliedmodders/metamod-source
@@ -28,15 +28,15 @@ elif [ "$1" = "build" ]; then
     ROOT_PATH=$(pwd)
     mkdir -p build/output
 
-    source build/root/venv/bin/activate
+    source build/sdk_root/venv/bin/activate
 
     pushd build/output
 
     python ../../configure.py \
-        --sm-path=$ROOT_PATH/build/root/sourcemod \
-        --mms-path=$ROOT_PATH/build/root/metamod-source \
-        --hl2sdk-root=$ROOT_PATH/build/root \
-        --hl2sdk-manifest-path=$ROOT_PATH/build/root/sourcemod/hl2sdk-manifests \
+        --sm-path=$ROOT_PATH/build/sdk_root/sourcemod \
+        --mms-path=$ROOT_PATH/build/sdk_root/metamod-source \
+        --hl2sdk-root=$ROOT_PATH/build/sdk_root \
+        --hl2sdk-manifest-path=$ROOT_PATH/build/sdk_root/sourcemod/hl2sdk-manifests \
         --sdks=css
 
     ambuild
