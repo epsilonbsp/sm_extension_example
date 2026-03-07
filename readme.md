@@ -12,7 +12,7 @@ Important notes:
 ### Linux
 * Install Dependencies
 
-      sudo apt install git clang python3 python-is-python3 python3-pip python3.12-venv
+      sudo apt install git clang python3 python-is-python3 python3-pip python3.12-venv gcc-multilib g++-multilib
 ## Usage
     # Install SDK
     .\build.bat install

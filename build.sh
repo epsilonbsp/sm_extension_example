@@ -34,7 +34,7 @@ elif [ "$1" = "build" ]; then
 
     pushd build/output
 
-    python ../../configure.py \
+    python ../../configure.py --enable-optimize \
         --sm-path=$ROOT_PATH/build/sdk_root/sourcemod \
         --mms-path=$ROOT_PATH/build/sdk_root/metamod-source \
         --hl2sdk-root=$ROOT_PATH/build/sdk_root \
