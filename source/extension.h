@@ -2,7 +2,7 @@
  * =============================================================================
  * SourceMod Extension Example
  * Copyright (C) 2004-2008 AlliedModders LLC.  All rights reserved.
- * Copyright (C) 2026 EpsilonBSP
+ * Copyright (C) 2026 epsilonbsp
  * =============================================================================
  *
  * This program is free software; you can redistribute it and/or modify it under

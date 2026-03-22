@@ -2,7 +2,7 @@
  * =============================================================================
  * SourceMod Extension Example
  * Copyright (C) 2004-2008 AlliedModders LLC.  All rights reserved.
- * Copyright (C) 2026 EpsilonBSP
+ * Copyright (C) 2026 epsilonbsp
  * =============================================================================
  *
  * This program is free software; you can redistribute it and/or modify it under
@@ -39,7 +39,7 @@
 #define SMEXT_CONF_NAME         "Example Extension"
 #define SMEXT_CONF_DESCRIPTION  "Example extension to help developers"
 #define SMEXT_CONF_VERSION      "0.0.0.0"
-#define SMEXT_CONF_AUTHOR       "AlliedModders, EpsilonBSP"
+#define SMEXT_CONF_AUTHOR       "AlliedModders, epsilonbsp"
 #define SMEXT_CONF_URL          "https://github.com/epsilonbsp/sm_extension_example_with_sdk"
 #define SMEXT_CONF_LOGTAG       "EXAMPLE"
 #define SMEXT_CONF_LICENSE      "GPL"
